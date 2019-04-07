@@ -1,0 +1,25 @@
+﻿<Page
+    x:Class="LocalicyDesktop.UpdatePersonal"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LocalicyDesktop"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <StackPanel Background="SlateGray">
+        <TextBlock Text="Update Personal Info" HorizontalAlignment="Center" Foreground="White" FontSize="36" />
+        <StackPanel Background="DarkSlateGray" Padding="50">
+            <TextBlock Text="Update Username:" FontSize="20"/>
+            <TextBox Margin="0,10,0,10" />
+            <TextBlock Text="Update Password:" FontSize="20"/>
+            <TextBox Margin="0,10,0,10" />
+            <TextBlock Text="Update Address:" FontSize="20"/>
+            <TextBox Margin="0,10,0,10" />
+            <TextBlock Text="Update Gender:" FontSize="20" />
+            <TextBox Margin="0,10,0,10" />
+            <Button Content="Submit" Margin="0,30,0,0"  FontSize="20" HorizontalAlignment="Right" Click="Button_Click" />
+        </StackPanel>
+    </StackPanel>
+</Page>

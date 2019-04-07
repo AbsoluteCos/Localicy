@@ -1,6 +1,7 @@
-Locality
-System.Runtime
 FormsViewGroup
+Locality
+Newtonsoft.Json
+System.Runtime
 Xamarin.Android.Arch.Core.Common
 Xamarin.Android.Arch.Lifecycle.Common
 Xamarin.Android.Arch.Lifecycle.Runtime
@@ -23,6 +24,10 @@ Xamarin.Android.Support.v7.RecyclerView
 Xamarin.Android.Support.Vector.Drawable
 Xamarin.Essentials
 Xamarin.Forms.Core
+Xamarin.Forms.HotReload.Reloader
 Xamarin.Forms.Platform.Android
 Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
+XAMLator.Server
+netstandard
+System.Reflection.Extensions

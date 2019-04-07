@@ -1,0 +1,11 @@
+C:\Users\techg\source\repos\Localicy\Locality\Locality\Locality\bin\Debug\netstandard2.0\Locality.deps.json
+C:\Users\techg\source\repos\Localicy\Locality\Locality\Locality\bin\Debug\netstandard2.0\Locality.dll
+C:\Users\techg\source\repos\Localicy\Locality\Locality\Locality\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\techg\source\repos\Localicy\Locality\Locality\Locality\obj\Debug\netstandard2.0\Locality.csproj.CoreCompileInputs.cache
+C:\Users\techg\source\repos\Localicy\Locality\Locality\Locality\obj\Debug\netstandard2.0\Locality.AssemblyInfoInputs.cache
+C:\Users\techg\source\repos\Localicy\Locality\Locality\Locality\obj\Debug\netstandard2.0\Locality.AssemblyInfo.cs
+C:\Users\techg\source\repos\Localicy\Locality\Locality\Locality\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\techg\source\repos\Localicy\Locality\Locality\Locality\obj\Debug\netstandard2.0\Locality.dll
+C:\Users\techg\source\repos\Localicy\Locality\Locality\Locality\obj\Debug\netstandard2.0\Locality.pdb
+C:\Users\techg\source\repos\Localicy\Locality\Locality\Locality\bin\Debug\netstandard2.0\Locality.pdb
+C:\Users\techg\source\repos\Localicy\Locality\Locality\Locality\obj\Debug\netstandard2.0\XamlC.stamp

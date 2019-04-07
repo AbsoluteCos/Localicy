@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Source>C:\Users\techg\source\repos\Localicy\LocalicyDesktop\LocalicyDesktop\Localicy logo.png</Source>
+    <SmallTileSource>C:\Users\techg\source\repos\Localicy\LocalicyDesktop\LocalicyDesktop\Localicy logo.png</SmallTileSource>
+    <MediumTileSource>C:\Users\techg\source\repos\Localicy\LocalicyDesktop\LocalicyDesktop\Localicy logo.png</MediumTileSource>
+    <WideTileSource>C:\Users\techg\source\repos\Localicy\LocalicyDesktop\LocalicyDesktop\Localicy logo.png</WideTileSource>
+    <LargeTileSource>C:\Users\techg\source\repos\Localicy\LocalicyDesktop\LocalicyDesktop\Localicy logo.png</LargeTileSource>
+    <AppIconSource>C:\Users\techg\source\repos\Localicy\LocalicyDesktop\LocalicyDesktop\Localicy logo.png</AppIconSource>
+    <SplashScreenSource>C:\Users\techg\source\repos\Localicy\LocalicyDesktop\LocalicyDesktop\Localicy logo.png</SplashScreenSource>
+    <BadgeLogoSource>C:\Users\techg\source\repos\Localicy\LocalicyDesktop\LocalicyDesktop\Localicy logo.png</BadgeLogoSource>
+    <PackageLogoSource>C:\Users\techg\source\repos\Localicy\LocalicyDesktop\LocalicyDesktop\Localicy logo.png</PackageLogoSource>
+  </PropertyGroup>
+</Project>

@@ -1,8 +1,6 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-using Locality.Services;
-using Locality.Views;
 
 namespace Locality
 {
@@ -12,8 +10,6 @@ namespace Locality
         public App()
         {
             InitializeComponent();
-
-            DependencyService.Register<MockDataStore>();
             MainPage = new MainPage();
         }
 

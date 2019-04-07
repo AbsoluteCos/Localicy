@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="LocalicyDesktop.LogIn"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LocalicyDesktop"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="DarkSlateGray">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="2*" />
+        </Grid.ColumnDefinitions>
+        <TextBlock Text="Welcome to Localicy!" Foreground="Black" FontSize="100" FontFamily="SansSerif" TextWrapping="WrapWholeWords" Padding="50" />
+        <StackPanel Grid.Column="1" VerticalAlignment="Bottom" Padding="30,30,30,140">
+            <TextBlock Text="User Name:" HorizontalAlignment="Stretch" Margin="20" FontSize="30" Foreground="Black" />
+            <TextBlock Text="Password:" HorizontalAlignment="Stretch" Margin="20" FontSize="30" Foreground="Black" />
+        </StackPanel>
+        <StackPanel Grid.Column="2" VerticalAlignment="Bottom" Padding="30">
+            <Button Content="Sign Up" HorizontalAlignment="Stretch" Margin="20" FontSize="30" Foreground="Black" Click="Button_Click" />
+            <TextBox x:Name="tbUser" HorizontalAlignment="Stretch" Margin="20" FontSize="30" />
+            <PasswordBox x:Name="tbPass" HorizontalAlignment="Stretch" Margin="20" FontSize="30" />
+            <Button x:Name="btnLog" Content="Log In" HorizontalAlignment="Stretch" Margin="20" FontSize="30" Foreground="Black" Click="BtnLog_Click" />
+        </StackPanel>
+    </Grid>
+</Page>

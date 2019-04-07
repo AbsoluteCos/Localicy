@@ -1,0 +1,8 @@
+﻿"C:\Users\techg\source\repos\Localicy\LocalicyDesktop\LocalicyDesktop\obj\x86\Release\ilc\in\Dapper.dll"
+"C:\Users\techg\source\repos\Localicy\LocalicyDesktop\LocalicyDesktop\obj\x86\Release\ilc\in\LocalicyDesktop.exe"
+/Lib:"C:\Users\techg\source\repos\Localicy\LocalicyDesktop\LocalicyDesktop\obj\x86\Release\ilc\in"
+/Lib:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.native.compiler\2.2.3\tools\x86\ilc\lib\Private"
+/WinMD:"C:\Users\techg\source\repos\Localicy\LocalicyDesktop\LocalicyDesktop\obj\x86\Release\ilc\in\WinMetadata\Windows.winmd"
+/VSTelemetrySessionSettings:"{"IsOptedIn":true,"HostName":"Dev14","AppInsightsInstrumentationKey":"f144292e-e3b2-4011-ac90-20e5c03fbce5","AsimovInstrumentationKey":"AIF-312cbd79-9dbb-4c48-a7da-3cc2a931cb70","AppId":1001,"UserId":"91955e41-59c8-4bf9-810a-65e791370d16","Id":"f74a8151-bc35-468f-88b7-45d31403176d","ProcessStartTime":636902068528270647}"
+/RdXmlPath:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\2.2.3\tools\LibraryXML"
+/RunOnlyPreDR

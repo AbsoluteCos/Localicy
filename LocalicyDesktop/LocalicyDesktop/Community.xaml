@@ -1,0 +1,43 @@
+﻿<Page
+    x:Class="LocalicyDesktop.Community"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LocalicyDesktop"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="MintCream">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <ListView Background="LightSlateGray" x:Name="lvChannels" IsItemClickEnabled="True" HorizontalAlignment="left" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.HorizontalScrollMode="Enabled">
+            <ListView.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <StackPanel Orientation="Horizontal" />
+                </ItemsPanelTemplate>
+            </ListView.ItemsPanel>
+            <ListViewItem x:Name="l1" Content="Education" Foreground="Black" IsSelected="True" />
+            <ListViewItem x:Name="l2" Content="Foreign Relations" Foreground="Black" PointerPressed="ListViewItem_PointerPressed" />
+            <ListViewItem x:Name="l3" Content="Quality of Goverment" Foreground="Black" />
+            <ListViewItem x:Name="l4" Content="Private Businesses" Foreground="Black" />
+            <ListViewItem x:Name="l5" Content="Welfare Programs" Foreground="Black" />
+            <ListViewItem x:Name="l6" Content="National Security" Foreground="Black" />
+            <ListViewItem x:Name="l7" Content="Health Care" Foreground="Black" />
+            <ListViewItem x:Name="l8" Content="Environment" Foreground="Black" />
+            <ListViewItem x:Name="l9" Content="Energy and Recycling" Foreground="Black" />
+            <ListViewItem x:Name="l10" Content="Immigration" Foreground="Black" />
+            <ListViewItem x:Name="l11" Content="Equality" Foreground="Black" />
+            <ListViewItem x:Name="l12" Content="Gun Control" Foreground="Black" />
+            <ListViewItem x:Name="l13" Content="Climate Change" Foreground="Black" />
+            <ListViewItem x:Name="l14" Content="US Territories" Foreground="Black" />
+            <ListViewItem x:Name="l15" Content="Voting" Foreground="Black" />
+            <ListViewItem x:Name="l16" Content="Public Transportation" Foreground="Black" />
+            <ListViewItem x:Name="l17" Content="Local Parks and Museums" Foreground="Black" />
+            <ListViewItem x:Name="l18" Content="Pollution" Foreground="Black" />
+        </ListView>
+        <Frame x:Name="frChannel" Grid.Row="1" />
+    </Grid>
+</Page>

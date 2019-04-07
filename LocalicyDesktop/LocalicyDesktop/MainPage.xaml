@@ -1,0 +1,28 @@
+﻿<Page
+    x:Class="LocalicyDesktop.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LocalicyDesktop"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Button Height="50" Width="50" FontFamily="Segoe MDL2 Assets" Content="&#xE700;" FontSize="22" Click="Navigation_Click" Canvas.ZIndex="1" />
+        <Rectangle x:Name="TitleBar" Fill="MediumPurple" />
+        <TextBlock Text="Localicy" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="33" Foreground="#FF72B2FF" />
+        <StackPanel x:Name="spSlide" Grid.Row="1" Width="400" Background="Purple" HorizontalAlignment="Left" Margin="-400,0,0,0" Canvas.ZIndex="2">
+            <ListView x:Name="lvNavigationMenu">
+                <ListViewItem x:Name="lviP" Content="Profile" IsSelected="True" />
+                <ListViewItem x:Name="lviA" Content="Area" />
+                <ListViewItem x:Name="lviC" Content="Community" />
+            </ListView>
+        </StackPanel>
+        <Frame x:Name="frMain" Grid.Row="1" Background="Gray" />
+    </Grid>
+</Page>

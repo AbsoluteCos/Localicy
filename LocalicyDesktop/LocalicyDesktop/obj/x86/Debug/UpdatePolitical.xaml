@@ -1,0 +1,27 @@
+﻿<Page
+    x:Class="LocalicyDesktop.UpdatePolitical"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LocalicyDesktop"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <StackPanel Background="SlateGray">
+        <TextBlock Text="Political Questionaire" HorizontalAlignment="Center" Foreground="White" FontSize="36" />
+        <StackPanel Background="DarkSlateGray" Padding="50">
+            <TextBlock Text="How Do You Feel About the Government Doing More to Help Needy Americans?" FontSize="20"/>
+            <Slider Value="50" />
+            <TextBlock Text="How Good of a Job Do You Think the Government is Doing?" FontSize="20"/>
+            <Slider Value="50" />
+            <TextBlock Text="How Much Do You Agree With Using Military Strength to Ensure Peace?" FontSize="20"/>
+            <Slider Value="50" />
+            <TextBlock Text="How Much Do You Think Discrimination Affects the Wealth Disparity in the US?" FontSize="20" />
+            <Slider Value="50" />
+            <TextBlock Text="How Much Do You Agree With the Government Regulating Businesses?" FontSize="20"/>
+            <Slider Value="50" />
+            <Button x:ConnectionId='1' Content="Submit" FontSize="20" HorizontalAlignment="Right"                      />
+        </StackPanel>
+    </StackPanel>
+</Page>
+
